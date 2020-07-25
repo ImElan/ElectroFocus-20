@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <group>
+                <item
+                    android:id="@+id/home_id"
+                    android:icon="@drawable/home"
+                    android:title="@string/home"/>
+                <item
+                    android:title="@string/events"
+                    android:icon="@drawable/events"
+                    android:id="@+id/events_id"/>
+                <item
+                    android:title="WorkShops"
+                    android:icon="@drawable/processor"
+                    android:id="@+id/workshop_id"/>
+                <item
+                    android:title="Registration"
+                    android:icon="@drawable/register_1"
+                    android:id="@+id/register_id"/>
+                <item
+                    android:title="Sponsors"
+                    android:icon="@drawable/sponsor"
+                    android:id="@+id/sponsor_id"/>
+                <item
+                    android:title="Accomodation"
+                    android:icon="@drawable/apartment"
+                    android:id="@+id/accommodation_id"/>
+                <item
+                    android:title="About"
+                    android:icon="@drawable/about"
+                    android:id="@+id/about_id"/>
+                <item
+                    android:title="Feedback"
+                    android:icon="@drawable/feedback"
+                    android:id="@+id/feedback_id"/>
+        </group>
+
+        <item
+            android:title="In Case of Queries Contact us :"
+            android:id="@+id/title_contacts">
+                <menu>
+                        <item
+                            android:title="Whatsapp"
+                            android:icon="@drawable/whatsapp"
+                            android:id="@+id/whatsapp"/>
+                        <item
+                            android:title="Message"
+                            android:icon="@drawable/messages"
+                            android:id="@+id/message"/>
+                        <item
+                            android:title="Phone"
+                            android:icon="@drawable/phone"
+                            android:id="@+id/phone"/>
+                </menu>
+        </item>
+
+
+</menu>

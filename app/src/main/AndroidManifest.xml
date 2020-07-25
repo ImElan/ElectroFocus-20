@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="elan.mit.electrofocus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="elan.mit.electrofocus.OfflineClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="elan.mit.electrofocus.QualcommWifi"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="elan.mit.electrofocus.Sponsors"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.RegistrationActivity"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.EventSelectionList"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.Arduino"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.EvolutionOf5G"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.ArtificialIntelligence"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.ComputerVision"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.InternetOfThings"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.RadioFrequencyIn5G"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.NetworkSecurity"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.AutonomousCar"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.Quiz"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.JAM"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.RoboRace"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.E_Design"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.OnBoardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/OnBoard" />
+        <activity
+            android:name="elan.mit.electrofocus.FeedbackActivity"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="elan.mit.electrofocus.CryptoGraphy"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.RoboSoccer"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.RoboWar"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.LineFollower"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.AllTerrain"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.CrypTech"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.PaperPresentation"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.WorkTheNetwork"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.MuProsAndCons"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.LiasTheLink"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.ProjectDisplay"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.BinaryBattle"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.Circuitology"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.CStruct"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.PhonePhotoGraphy"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.ShipWreck"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.BlueShirtReview"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.VoiceOver"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.IplAuction"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.Fifa"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.RubiksCube"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.AboutActivity"
+            android:parentActivityName="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="elan.mit.electrofocus.MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

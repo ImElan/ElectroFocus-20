@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "996461989382",
+    "firebase_url": "https://electrofocus-585c1.firebaseio.com",
+    "project_id": "electrofocus-585c1",
+    "storage_bucket": "electrofocus-585c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996461989382:android:386387bc5851496eca7d87",
+        "android_client_info": {
+          "package_name": "elan.mit.electrofocus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996461989382-s4buee7b95bddtosurl28c173d0jl8pn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.electrofocus",
+            "certificate_hash": "78b2018f063d31c218b467dd0c1ec3ffa92daf84"
+          }
+        },
+        {
+          "client_id": "996461989382-1d8s2pp1gtkp1cfjoi9hgsomths1mlrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHBG9_Ffjx-LcrvemCWoxRE3TwZecZWYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996461989382-1d8s2pp1gtkp1cfjoi9hgsomths1mlrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

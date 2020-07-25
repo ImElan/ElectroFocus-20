@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteTransparent">#808080</color>
+    <color name="events">#977c43 </color>
+    <color name="imageBack">#D3D3D3</color>
+    <color name="placeholder">#DDDDDD</color>
+    <color name="colorTransparentWhite">#CCCCCC</color>
+    <color name="OnBoardDark">#1F2332</color>
+</resources>

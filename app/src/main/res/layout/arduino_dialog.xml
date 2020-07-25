@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#242424"
+        android:text="Registration fee per head is 750.The kit's cost is not included in the registration fee. The kit cost is Rs.850 and this cost will get added up along with the registration fees automatically for each team based on the number of team members. Select one of the following."/>
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/solo"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 1600 Solo (750 + 850)"
+            android:textColor="#000000"/>
+        <RadioButton
+            android:id="@+id/duo"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 2350 Duo (1500 + 850)"
+            android:textColor="#000000"/>
+        <RadioButton
+            android:id="@+id/triple"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 3100 Triplet (2250 + 850)"
+            android:textColor="#000000"/>
+        <RadioButton
+            android:id="@+id/squad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 3850 Squad (3000 + 850)"
+            android:textColor="#000000"/>
+    </RadioGroup>
+</LinearLayout>

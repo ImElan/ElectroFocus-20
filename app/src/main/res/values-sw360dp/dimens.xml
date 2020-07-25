@@ -1,0 +1,9 @@
+<resources>
+	<dimen name="event_height">174.3dp</dimen>
+	<dimen name="slide_heading">18sp</dimen>
+	<dimen name="slide_text">15sp</dimen>
+	<dimen name="slide_image_height">150dp</dimen>
+	<dimen name="slide_image_width">150dp</dimen>
+	<dimen name="text_margin_top">15dp</dimen>
+	<dimen name="text_padding_top">20dp</dimen>
+</resources>

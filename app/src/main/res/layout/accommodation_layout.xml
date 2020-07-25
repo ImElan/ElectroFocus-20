@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#242424"
+            android:text="1. Accommodation will be provided for the outstation participants only."
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#242424"
+            android:layout_marginBottom="5dp"
+            android:text="2. Accommodation will be provided for 2 days or 1 day with the proof of your event participation."
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#242424"
+            android:layout_marginBottom="5dp"
+            android:text="3. Contact the Accommodation Team, as you reach the campus."
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#242424"
+            android:layout_marginBottom="5dp"
+            android:text="4. Rooms will be allotted for girls and boys separately."
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#242424"
+            android:layout_marginBottom="5dp"
+            android:text="5. Alcohol, drugs and explosives are strictly prohibited."
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#242424"
+            android:layout_marginBottom="5dp"
+            android:text="6. Participant should take care of their belongings. Accommodation Team will not be responsible for any mishaps."
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#242424"
+            android:layout_marginBottom="5dp"
+            android:text="7.Accommodation will be given for maximum of three days (from 30st Jan evening to 2nd Feb evening)."
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#242424"
+            android:layout_marginBottom="5dp"
+            android:text="8. Participant must carry a valid Government id proof for verification."
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#242424"
+            android:layout_marginBottom="2dp"
+            android:text="If you have any Queries Contact :"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#242424"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:text="Gokulraj : 8098534794"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

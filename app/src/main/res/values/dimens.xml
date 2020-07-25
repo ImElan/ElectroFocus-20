@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="event_height">196dp</dimen>
+    <dimen name="slide_heading">16sp</dimen>
+    <dimen name="slide_text">14sp</dimen>
+    <dimen name="slide_image_height">115dp</dimen>
+    <dimen name="slide_image_width">115dp</dimen>
+    <dimen name="text_margin_top">10dp</dimen>
+    <dimen name="text_padding_top">10dp</dimen>
+</resources>
